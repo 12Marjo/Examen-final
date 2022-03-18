@@ -136,6 +136,8 @@ descr(cancer_mama) %>% tab_df(title = "Estadistica descriptiva del cancer de MAM
 
 ```{tex}
 # Escriba aquí su interpretación 
+##Hay 8variantes de las cuañes se presentan los tipos esta informacion permite la sintesis de un producto génico  funcional que le permite producir productos finales, proteinas o arn no codificante para finalmente afectar a un fenotipo,se muestra el gen de interes con la parte de interes de allí la importancia del codigo, Genskew es una aplicación para calcular y trazar datos de sesgo de nucleótidos.
+
 
 ```
 
