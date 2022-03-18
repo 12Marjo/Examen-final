@@ -337,7 +337,7 @@ reg_gen_expression <- function (gen) {
 
 ## guardar el onceavo grafico de la lista 
 
-## utilizando el gen "GATA3" para comparar con el resto de genes en los diferentes datasets 
+## utilizo el gen "GATA3" por que me ayuda a comparar con el resto de genes en los diferentes datasets 
 graficos_cancer <- reg_gen_expression("GATA3")
 
 ```
