@@ -335,6 +335,10 @@ reg_gen_expression <- function (gen) {
   }
 }
 
+## guardar el onceavo grafico de la lista 
+
+## utilizando el gen "GATA3" para comparar con el resto de genes en los diferentes datasets 
+graficos_cancer <- reg_gen_expression("GATA3")
 
 ```
 
@@ -342,7 +346,9 @@ reg_gen_expression <- function (gen) {
 ### [0.5 PUNTOS] 2.5. Utilizando la función ```lapply()``` genera la lista ```reg_genplots``` con las gráficas para cada par de genes posibles. Recuerde que tiene 7 tipos de genes, se debe tener todas las combinaciones posibles por pares de genes (combinatoria sin repetición).
 ```{r list_regplots}
 # Escriba el código para generar la lista. 
+graficos_cancer[[5]][[2]]
 
+ggsave("regresion11.pdf", width = 6, height = 8, dpi = 300)
 ```
 
 
